@@ -15,6 +15,7 @@
   "license": "WTFPL",
   "devDependencies": {
     "ava": "^0.14.0",
+    "is-ci": "^1.0.8",
     "nyc": "^6.4.3"
   },
   "dependencies": {
