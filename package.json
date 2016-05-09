@@ -1,0 +1,31 @@
+{
+  "name": "raw-log",
+  "version": "1.0.0",
+  "description": "Tiny and fast debugging and logging tool.",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava --timeout 2s --verbose",
+    "example": "node example"
+  },
+  "keywords": [],
+  "author": "Mark Tiedemann <www.marktiedemann@gmail.com>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "nyc": "^6.4.3"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkTiedemann/raw-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MarkTiedemann/raw-log/issues"
+  },
+  "homepage": "https://github.com/MarkTiedemann/raw-log"
+}
